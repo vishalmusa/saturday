@@ -1,0 +1,8 @@
+version: '3'
+services:
+ service-one:
+   image: 'tomcate:9'
+   ports:
+   - "8081:8080" 
+   volumes: 
+   - "/home/ec2-user/wars:/usr/local/tomcate/webapps"
